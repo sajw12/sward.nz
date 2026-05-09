@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <title>Samuel Ward - Senior Network Engineer</title>
+    <meta
+      name="description"
+      content="Samuel Ward is a Wellington-based senior network engineer focused on secure enterprise networking, SDN, cloud networking, and high-compliance environments."
+    >
+    <meta name="author" content="Samuel Ward">
+    <link rel="canonical" href="https://sward.nz/">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://sward.nz/">
+    <meta property="og:title" content="Samuel Ward - Senior Network Engineer">
+    <meta
+      property="og:description"
+      content="Senior network engineer focused on secure enterprise networking, SDN, cloud networking, and high-compliance New Zealand environments."
+    >
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#f5f5f5" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1d1e20" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      const savedTheme = localStorage.getItem("pref-theme");
+      if (savedTheme === "dark" || savedTheme === "light") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      } else {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Samuel Ward home">SW</a>
+        <ul class="nav-links">
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#focus">Focus</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <svg class="theme-toggle__icon theme-toggle__icon--light" aria-hidden="true" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--dark" aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="headshot-slot" aria-hidden="true">SW</div>
+        <p class="eyebrow">Wellington, New Zealand</p>
+        <h1 id="hero-title">Samuel Ward</h1>
+        <p class="role">Senior Network Engineer</p>
+        <p class="hero-copy">
+          I design, build, and operate secure enterprise networks across complex,
+          high-compliance environments, with a focus on SDN platforms, cloud networking,
+          cyber resilience, and clear technical ownership.
+        </p>
+        <div class="contact-row" aria-label="Contact links">
+          <a href="mailto:samuel@sward.nz">samuel@sward.nz</a>
+          <a href="https://github.com/sajw12" rel="me noopener noreferrer">GitHub</a>
+          <span>Wellington, New Zealand</span>
+        </div>
+      </section>
+
+      <section class="section" id="profile" aria-labelledby="profile-title">
+        <h2 id="profile-title">Profile</h2>
+        <p>
+          I am a senior network engineer and technical leader with experience supporting
+          enterprise networks in the New Zealand public service, banking, legal, and
+          managed-services sectors. My work combines hands-on network engineering with
+          governance, documentation, stakeholder communication, and long-running ownership
+          of complex technical outcomes.
+        </p>
+        <p>
+          Recent projects have included Cisco SD-Access implementations, Cisco ISE
+          deployment and vulnerability response, Catalyst Center templating, Azure network
+          design, office network modernisation, and SD-WAN support across large distributed
+          environments.
+        </p>
+      </section>
+
+      <section class="section" id="focus" aria-labelledby="focus-title">
+        <h2 id="focus-title">Technical Focus</h2>
+        <ul class="skill-list" aria-label="Technical focus areas">
+          <li>Cisco enterprise switching, routing, wireless, Catalyst Center, and ISE</li>
+          <li>Software-defined access, SD-WAN, segmentation, compliance, and drift control</li>
+          <li>Azure networking, cloud migration, site connectivity, and virtual appliances</li>
+          <li>Cyber security support, vulnerability response, access policy, and governance</li>
+          <li>Multi-vendor environments spanning Cisco, Fortinet, Check Point, Palo Alto, Aruba, and Citrix</li>
+          <li>Technical leadership, mentoring, complex case ownership, and stakeholder engagement</li>
+        </ul>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Selected Experience</h2>
+
+        <article class="role-entry">
+          <div class="role-heading">
+            <h3>Network Engineer</h3>
+            <p>Cello | Oct 2024 to present</p>
+          </div>
+          <p>
+            Network engineering lead for early Cisco SD-Access implementations in the New
+            Zealand public service, supporting customer Cisco enterprise environments across
+            switching, routing, wireless, Catalyst Center, and ISE.
+          </p>
+          <ul>
+            <li>Led the business case and technical implementation of a Cisco ISE cluster in a public-sector UAT environment.</li>
+            <li>Owns Cello LAN Team response activity for Cisco ISE CVEs.</li>
+            <li>Delivered Catalyst Center Jinja templating for 94 switches to reduce configuration drift and improve reporting.</li>
+          </ul>
+        </article>
+
+        <article class="role-entry">
+          <div class="role-heading">
+            <h3>ICT Engineer</h3>
+            <p>Dentons New Zealand | Jul 2023 to Oct 2024</p>
+          </div>
+          <p>
+            Primary engineer for networking across Dentons New Zealand's Azure tenant and
+            office network, spanning major centres and a broad enterprise application estate.
+          </p>
+          <ul>
+            <li>Designed the Azure VNet and IP addressing model for a major cloud migration.</li>
+            <li>Helped migrate 19 of 24 servers to Azure, contributing to significant annual infrastructure savings.</li>
+            <li>Planned and executed the transition to a modern Meraki, Palo Alto, Aruba, and Catalyst office network.</li>
+          </ul>
+        </article>
+
+        <article class="role-entry">
+          <div class="role-heading">
+            <h3>Network Engineer</h3>
+            <p>Kiwibank | Jun 2022 to Jul 2023</p>
+          </div>
+          <p>
+            Supported a large, multi-vendor banking network under tight compliance constraints,
+            working across Cisco, Check Point, Fortinet, and Citrix platforms.
+          </p>
+          <ul>
+            <li>Internal SME for a Fortinet SD-WAN and SD-Branch retail network connecting around 280 sites.</li>
+            <li>Technical point of contact for a major vendor investigation into inter-data-centre connectivity.</li>
+          </ul>
+        </article>
+
+        <article class="role-entry">
+          <div class="role-heading">
+            <h3>Network Engineer - Operations</h3>
+            <p>Spark New Zealand | Oct 2020 to Jun 2022</p>
+          </div>
+          <p>
+            Provided tier-three support for managed WAN, SD-WAN, access switching, and wireless
+            services across enterprise and government customers.
+          </p>
+          <ul>
+            <li>Provisioned new distribution switching for a major New Zealand bank headquarters with no service outage.</li>
+            <li>Led investigation of a complex SD-WAN issue affecting a major public-service customer through to vendor patch release.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section compact" aria-labelledby="leadership-title">
+        <h2 id="leadership-title">Earlier Technical Leadership</h2>
+        <p>
+          At Concentrix, I led a technical support team, maintained support quality metrics,
+          handled escalations and root-cause reviews, and helped improve training material
+          around probing questions, testing methodology, and log analysis.
+        </p>
+      </section>
+
+      <section class="section compact" aria-labelledby="certifications-title">
+        <h2 id="certifications-title">Certifications</h2>
+        <ul class="inline-list">
+          <li>Microsoft Certified: Azure Fundamentals</li>
+          <li>ITIL v4 Foundation</li>
+        </ul>
+      </section>
+
+      <section class="section compact" aria-labelledby="outside-work-title">
+        <h2 id="outside-work-title">Outside Work</h2>
+        <p>
+          Outside work, I play competitive bridge online and remain connected with the
+          New Zealand bridge community. I am a qualified tournament director with the
+          New Zealand Contract Bridge Association, with experience running events, preparing
+          budgets, coordinating venues, and supporting smooth play.
+        </p>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>
+          For professional enquiries, the best way to reach me is by email.
+        </p>
+        <a class="button" href="mailto:samuel@sward.nz">Email Samuel</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="current-year">2026</span> Samuel Ward | <a href="#top">Back to top</a></p>
+    </footer>
+  </body>
+</html>

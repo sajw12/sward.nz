@@ -1,0 +1,3 @@
+# Canonical domain handling for the Cloudflare Pages preview domain.
+# Apex/www and HTTP-to-HTTPS redirects should be configured in Cloudflare.
+https://sward-nz.pages.dev/* https://sward.nz/:splat 301
