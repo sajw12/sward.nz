@@ -1,6 +1,12 @@
 .git
 .github
 .wrangler
+.agents
+.codex
 node_modules
 *.log
 .DS_Store
+.gitignore
+.assetsignore
+README.md
+wrangler.jsonc
