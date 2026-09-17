@@ -29,6 +29,18 @@
     <meta name="twitter:description" content="Wellington-based Solution Architect. SDN, enterprise networking, cloud, and high-compliance NZ environments.">
     <meta name="theme-color" content="#f5f5f5" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#1d1e20" media="(prefers-color-scheme: dark)">
+    <script nonce="swardCFnonceV1">
+      (function () {
+        var saved = localStorage.getItem("pref-theme");
+        if (saved === "dark" || saved === "light") {
+          document.documentElement.dataset.theme = saved;
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          document.documentElement.dataset.theme = "dark";
+        } else {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <script type="application/ld+json">
